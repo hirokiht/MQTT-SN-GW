@@ -1,0 +1,29 @@
+{
+	"name": "mqtt-sn-gw",
+	"version": "0.0.1",
+	"description": "MQTT-SN Gateway designed for lightweight and realtime applications",
+	"author": "hirokiht <hirokiht (a) gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:hirokiht/nodejs-mqtt-sn-gw.git"
+	},
+	"keywords": [
+		"mqtt",
+		"mqtt-sn",
+		"gateway",
+		"transparent"
+	],
+	"dependencies":{
+		"express": "3.4.6",
+		"mongodb": "1.4.0-rc2",
+		"socket.io": "0.9.16"
+	},
+	"scripts": {
+    	"start": "nodejs gw.js"
+	},
+	"main": "gw.js",
+	"license": "Apache version 2.0",
+	"engines": {
+		"node": ">=0.10.15"
+	}
+}
